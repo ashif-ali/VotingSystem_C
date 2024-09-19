@@ -6,7 +6,7 @@ CANDIDATE candidateArray[20];
 int numberOfCandidates = 5;
 char studentVotes[200];
 
-// To extract year from userID -- For example, userID:2018btecs00064 year:2018 
+
 int extractYear(char userID[9]) {
     int year = 0;
     year = (year * 10) + (userID[3] - '0');
