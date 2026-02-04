@@ -25,7 +25,7 @@ int extractRollNo(char userID[9]) {
 
 
 
-// Will check whether the global branch code and inputted branch code is matching or not
+// Will check whether the global branch code and input branch code is matching or not
 int checkBranchCode(char userID[9]) {
     char branchCode[4];
     for (int i = 0; i < 3; i++) {
